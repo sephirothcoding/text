@@ -16,6 +16,7 @@
 }
 
 .street {
+  display: flex; 
   position: right;
   font-family: 'Mr Dafoe', cursive;
   font-size: 180px;
