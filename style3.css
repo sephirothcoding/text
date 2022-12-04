@@ -12,7 +12,7 @@
 
 
 .street-machine {
-  position: right;
+  position: absolute;
 }
 
 .street {
@@ -32,7 +32,7 @@
 
 .street:before {
   content: '';
-  position: right;
+  position: absolute;
   height: 4px;
   width: 665px;
   top: 83px;
@@ -48,7 +48,7 @@
 
 .street:after {
   content: '';
-  position: right;
+  position: absolute;
   height: 4px;
   width: 639px;
   top: 109px;
@@ -58,7 +58,7 @@
 }
 
 .machine {
-  position: right;
+  position: absolute;
   left: 50px;
   top: 350px;
   font-family: 'Mr Dafoe', cursive;
